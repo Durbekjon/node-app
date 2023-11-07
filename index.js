@@ -76,6 +76,8 @@ const server = http.createServer((req, res) => {
       res.statusCode = 404
       res.end('Bunday kitob topilmadi')
     }
+  } else {
+    res.end('404 not found')
   }
 })
 
